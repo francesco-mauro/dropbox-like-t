@@ -1,4 +1,4 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -12,7 +12,8 @@
     padding: 10px;
 }
 
-.left-boxes, .right-boxes {
+.left-boxes,
+.right-boxes {
     display: flex;
     justify-content: space-between;
     width: 40%;
@@ -20,6 +21,9 @@
 
 .center-space {
     width: 20%;
+
+    /* debug */
+    background-color: red;
 }
 
 .box {
@@ -29,3 +33,22 @@
     text-align: center;
 }
 
+/* main */
+/* .hero */
+.hero {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    /* debug */
+    background-color: aquamarine;
+    min-height: 400px;
+}
+
+.big-img {
+
+    /* debug */
+    min-width: 80%;
+    min-height: 350px;
+    background-color: orange;
+    z-index: 9999;
+}
