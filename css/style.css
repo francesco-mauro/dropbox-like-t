@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.main-header {
+    display: flex;
+    justify-content: space-between;
+    background-color: lightgray;
+    padding: 10px;
+}
+
+.left-boxes, .right-boxes {
+    display: flex;
+    justify-content: space-between;
+    width: 40%;
+}
+
+.center-space {
+    width: 20%;
+}
+
+.box {
+    background-color: lightblue;
+    padding: 10px;
+    margin: 5px;
+    text-align: center;
+}
+
