@@ -1,7 +1,26 @@
-* {
+/* reset  */
+*{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+
+/* commons  */
+.flex-center{
+    display: flex;
+    justify-content: center;
+}
+
+.full-box{
+    min-width: 100%;
+    min-height: 100%;
+}
+
+.container{
+    width: 60%;
+    /* debug */
+    min-height: 300px;
+    border: 3px solid black;
 }
 
 
@@ -51,4 +70,33 @@
     min-height: 350px;
     background-color: orange;
     z-index: 9999;
+}
+
+/* <!-- business plans --> */
+.main .container{
+    margin-top: 20px;
+}
+
+.footer-business-plan,.header-business-plan{
+    min-height: 40px;
+    background-color: lightgray;
+
+    /* debug */
+    border: 1px solid green;
+}
+
+.columns-business-plan{
+    margin: 10px 0 10px;
+    display: flex;
+    gap: 10px;
+    
+}
+
+.inner-column-business-plan{
+    flex: 1;
+
+    /* debug */
+    min-height: 400px;
+    background-color: aqua;
+    border: 1px solid rebeccapurple;
 }
