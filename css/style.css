@@ -67,6 +67,10 @@ padding-top: 40px 0;
     padding: 5px 10px ;
 }
 
+.border-bottom-small{
+    border-bottom: 1px solid black;
+}
+
 /* Columns */
 
 .col-30{
@@ -89,12 +93,36 @@ padding-top: 40px 0;
 
 /* Margins&Paddings  */
 
+.p-all-15{
+    padding: 15px;
+}
+
+.pt-5{
+    padding-top: 5px;
+}
+
 .pt-15{
     padding-top: 15px;
 }
 
+.pr-70perc{
+    padding-right: 70%;
+}
+
 .pt-70{
     padding-top: 70px;
+}
+
+.pb-15{
+    padding-bottom: 15px;
+}
+
+.pb-70{
+    padding-bottom: 70px;
+}
+
+.pl-15{
+    padding-left: 50px;
 }
 
 .ml-100{
@@ -139,6 +167,7 @@ padding-top: 40px 0;
     /* debug */
     background-color: blue;
 }
+
 
 
 
