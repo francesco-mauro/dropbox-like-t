@@ -89,14 +89,27 @@ padding-top: 40px 0;
     margin-bottom: 20px;
 }
 
+.blue-button{
+
+    /* debug */
+    background-color: blue;
+}
+
+.small-button{
+    padding: 5px 10px ;
+
+    /* debug */
+    background-color: blue;
+}
+
+
 /* header */
 .main-header{
     height: 80px;
     line-height: 80px;
 
     /* debug */
-    background-color: lightgray;
-
+    background-color: white;
 }
 
 .main-header div{
@@ -107,9 +120,6 @@ padding-top: 40px 0;
 .main-header div ul{
     display: flex;
     gap: 20px;
-
-    /* debug */
-    background-color: red;
 }
 
 .card{
