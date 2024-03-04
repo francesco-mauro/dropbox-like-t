@@ -1,102 +1,140 @@
-/* reset  */
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-/* commons  */
-.flex-center{
-    display: flex;
-    justify-content: center;
+img{
+    max-width: 100%;
 }
 
-.full-box{
-    min-width: 100%;
-    min-height: 100%;
+ul{
+    list-style-type: none;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+/* common */
+
+.main-section{
+padding-top: 40px 0;
+}
+
+[class^="col"] {
+    min-height: 200px;
+    border: 1px solid orange;
+}
+
+.container-large{
+    width: 80%;
+    max-width: 1200px;
+    margin: 0 auto;
+
+    /* debug */
+    border: 1px solid black;
+    min-height: 300px;
 }
 
 .container{
-    width: 60%;
+    width: 70%;
+    max-width: 1200px;
+    margin: 0 auto;
+
     /* debug */
+    border: 1px solid black;
     min-height: 300px;
-    border: 3px solid black;
+}
+
+.section-bg{
+    background-color: lightblue;
 }
 
 
-.main-header {
-    display: flex;
-    justify-content: space-between;
-    background-color: lightgray;
-    padding: 10px;
+.col-30{
+    width: 30%;
 }
 
-.left-boxes,
-.right-boxes {
-    display: flex;
-    justify-content: space-between;
+.col-70{
+    width: 70%;
+}
+
+.col-40{
     width: 40%;
 }
 
-.center-space {
-    width: 20%;
+.col-60{
+    width: 60%;
+}
+
+.pt-70{
+    padding-top: 70px;
+}
+
+.flex{
+    display: flex;
+}
+
+.wrap{
+    flex-wrap: wrap;
+} 
+
+.justify-between{
+    justify-content: space-between;
+}
+
+.mb-30{
+    margin-bottom: 20px;
+}
+
+/* header */
+.main-header{
+    height: 80px;
+    line-height: 80px;
+
+    /* debug */
+    background-color: lightgray;
+
+}
+
+.main-header div{
+ display: flex;
+ justify-content:  space-between;
+}
+
+.main-header div ul{
+    display: flex;
+    gap: 20px;
 
     /* debug */
     background-color: red;
 }
 
-.box {
-    background-color: lightblue;
-    padding: 10px;
-    margin: 5px;
-    text-align: center;
-}
-
-/* main */
-/* .hero */
-.hero {
+.card{
     display: flex;
-    justify-content: center;
-    align-items: flex-end;
-    /* debug */
-    background-color: aquamarine;
-    min-height: 400px;
-}
-
-.big-img {
-
-    /* debug */
-    min-width: 80%;
-    min-height: 350px;
-    background-color: orange;
-    z-index: 9999;
-}
-
-/* <!-- business plans --> */
-.main .container{
-    margin-top: 20px;
-}
-
-.footer-business-plan,.header-business-plan{
-    min-height: 40px;
-    background-color: lightgray;
+    justify-content: space-between;
 
     /* debug */
     border: 1px solid green;
+    min-height: 50px;
 }
 
-.columns-business-plan{
-    margin: 10px 0 10px;
+.squares{
     display: flex;
-    gap: 10px;
+}
+
+.square{
+    width: calc(100% / 3);
     
-}
-
-.inner-column-business-plan{
-    flex: 1;
-
     /* debug */
-    min-height: 400px;
-    background-color: aqua;
-    border: 1px solid rebeccapurple;
+    border: 2px solid blue;
+    min-height: 300px;
 }
+
+
+
+/* main */
+
+/* footer */
