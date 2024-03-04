@@ -19,6 +19,10 @@ a{
 
 /* common */
 
+.position-relative{
+    position: relative;
+}
+
 .main-section{
 padding-top: 40px 0;
 }
@@ -40,7 +44,7 @@ padding-top: 40px 0;
 
 .container{
     width: 70%;
-    max-width: 1200px;
+    max-width: 1100px;
     margin: 0 auto;
 
     /* debug */
@@ -52,6 +56,18 @@ padding-top: 40px 0;
     background-color: lightblue;
 }
 
+.large-button{
+    min-width: 70px;
+    max-width: 80%;
+    text-align: center;
+
+}
+
+.padding-large-button{
+    padding: 5px 10px ;
+}
+
+/* Columns */
 
 .col-30{
     width: 30%;
@@ -69,8 +85,20 @@ padding-top: 40px 0;
     width: 60%;
 }
 
+
+
+/* Margins&Paddings  */
+
+.pt-15{
+    padding-top: 15px;
+}
+
 .pt-70{
     padding-top: 70px;
+}
+
+.ml-100{
+    padding-left: 100px;
 }
 
 .flex{
@@ -89,17 +117,35 @@ padding-top: 40px 0;
     margin-bottom: 20px;
 }
 
+.mt-20{
+    margin-top: 20px;
+}
+
+/* Colors */
+
+.text-color-white{
+    color: white;
+}
+
 .blue-button{
 
     /* debug */
     background-color: blue;
 }
 
-.small-button{
+.padding-small-button{
     padding: 5px 10px ;
 
     /* debug */
     background-color: blue;
+}
+
+
+
+/* text */
+
+.text-center{
+    text-align: center;
 }
 
 
@@ -121,6 +167,47 @@ padding-top: 40px 0;
     display: flex;
     gap: 20px;
 }
+
+/* hero */
+
+.container-large .flex{
+    padding-top: 50px;
+}
+
+.container-large h1{
+    font-size: 3.5rem;
+    padding-right: 100px;
+}
+
+.flex .col-70 img{
+    position: absolute;
+    bottom: -50px;
+    right: 20%;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.arrow-down{
+    font-size: 3rem;
+    font-weight: 700;
+}
+
+/* <!-- plans section  --> */
+
+#plans-section{
+    margin-top: 70px;
+}
+
+#plans-section h2{
+    font-size: 2em;
+}
+
+.radio-button{
+    display: inline-block;
+    margin-right: 10px;
+}
+
+
 
 .card{
     display: flex;
