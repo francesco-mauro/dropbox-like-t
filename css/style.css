@@ -315,6 +315,11 @@ padding-top: 40px 0;
     text-align: center;
 }
 
+#dropbox-small-icon {
+    position: relative;
+    top: 6px; 
+}
+
 .items-top ul li a.blue-button {
     padding: 5px 15px; 
     text-align: center;
