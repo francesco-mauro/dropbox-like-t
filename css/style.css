@@ -124,8 +124,6 @@ padding-top: 40px 0;
     padding: 20%;
 }
 
-
-
 .pt-5{
     padding-top: 5px;
 }
@@ -297,6 +295,41 @@ padding-top: 40px 0;
     line-height: 80px;
 }
 
+.items-top{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.items-top ul {
+    margin: 0 40px 0; 
+}
+
+.items-top ul li{
+    display: flex;
+    align-items: center;
+}
+
+.blue-button.padding-small-button
+{
+    text-align: center;
+}
+
+.items-top ul li a.blue-button {
+    padding: 5px 15px; 
+    text-align: center;
+    line-height: normal;
+    vertical-align: middle;
+}
+
+.items-top ul li {
+    align-items: center;
+}
+
+#dropbox-small-icon {
+    height: auto;
+}
+
 .main-header div{
  display: flex;
  justify-content:  space-between;
@@ -348,8 +381,6 @@ padding-top: 40px 0;
 
 /* ufficio vendite */
 
-
-
 .card{
     display: flex;
     justify-content: space-between;
@@ -393,7 +424,7 @@ max-width: 150px;
 /* main */
 
 /* footer */
-
+/* 
 ul li{
     padding-top: 10px;
-}
+} */
